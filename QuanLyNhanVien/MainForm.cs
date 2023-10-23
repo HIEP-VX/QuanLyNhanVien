@@ -15,6 +15,8 @@ namespace QuanLyNhanVien
     {
         public bool isExit = true;
 
+        public bool exit = false;
+
         //sử dụng hàm ủy thác
         public event EventHandler Logout;
 
