@@ -142,6 +142,8 @@ namespace QuanLyNhanVien
             cbTT.Text = dataGridView1.Rows[index].Cells[6].Value.ToString();
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
+
         private void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
             dataGridView1.DefaultCellStyle.Font = new Font("Arial", 11);
